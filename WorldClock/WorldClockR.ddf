@@ -1,0 +1,11 @@
+﻿.OPTION EXPLICIT
+.Set CabinetNameTemplate=WorldClock.cab       
+.set DiskDirectoryTemplate=CDROM
+.Set CompressionType=MSZIP
+.Set UniqueFiles="OFF"
+.Set Cabinet=on
+.Set DiskDirectory1="C:\Documents and Settings\leonard.erwine\My Documents\Visual Studio 2005\Projects\WebParts\WorldClock"
+"C:\Documents and Settings\leonard.erwine\My Documents\Visual Studio 2005\Projects\WebParts\WorldClock\bin\FX1_1\Release\WorldClock.dll"
+"C:\Documents and Settings\leonard.erwine\My Documents\Visual Studio 2005\Projects\WebParts\WorldClock\Manifest.xml"
+"C:\Documents and Settings\leonard.erwine\My Documents\Visual Studio 2005\Projects\WebParts\WorldClock\WorldClock.dwp"
+"C:\Documents and Settings\leonard.erwine\My Documents\Visual Studio 2005\Projects\WebParts\WorldClock\ResourceImage.gif"

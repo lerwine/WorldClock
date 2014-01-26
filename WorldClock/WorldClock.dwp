@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" >
+	<Title>World Clock</Title>
+  <FrameType>None</FrameType>
+  <Description>Customizable World Clock Web Part</Description>
+  <Assembly>WorldClock</Assembly>
+	<TypeName>WorldClock.WorldClock</TypeName>
+  <TimeZoneOffsets xmlns="WorldClock">
+    <int>-14400</int>
+    <int>0</int>
+    <int>10800</int>
+    <int>14400</int>
+    <int>16200</int>
+  </TimeZoneOffsets>
+  <TimeZoneNames xmlns="WorldClock">
+    <string>Tampa</string>
+    <string>Zulu</string>
+    <string>Iraq/HOA</string>
+    <string>Qatar</string>
+    <string>Afgn</string>
+  </TimeZoneNames>
+  <TimeDstAdjust xmlns="WorldClock">
+    <boolean>true</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+  </TimeDstAdjust>
+</WebPart>
